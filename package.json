@@ -1,19 +1,32 @@
 {
   "name": "nodepakagemanager_npm",
   "version": "1.0.0",
-  "description": "",
+  "description": "this a project showing usage of npm modules",
   "main": "index.js",
   "scripts": {
     "start": "node index",
-    "dev": "nodemon index",
+    "dev": "nodemon index"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanvirsweb/NodePakageManager_npm.git"
+  },
+  "keywords": [
+    "node",
+    "pakage",
+    "manager"
+  ],
+  "author": "Tanvir Anjom Siddique",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanvirsweb/NodePakageManager_npm/issues"
+  },
+  "homepage": "https://github.com/tanvirsweb/NodePakageManager_npm#readme",
   "dependencies": {
-    "date-fns": "^2.30.0",
+    "date-fns": "^3.0.0-alpha.2",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.2"
   }
 }

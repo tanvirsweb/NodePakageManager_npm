@@ -80,7 +80,7 @@ Start script in JSON will run
 >> npm run dev 
 -------------------------------------------
 
->> npm uuid
+>> npm i uuid
 Generate id's different for each entry
 This is a production dependency -> no need for flag
 
